@@ -2,6 +2,7 @@ TLSSCAN="./tls-scan"
 JQ="jq"
 DOMAINS="russia-tls-list-150322.txt"
 FIELDS=".subject, .issuer, .notBefore, .notAfter, .basicConstraints, .sha1Fingerprint"
+OUTDIR="out"
 
 if [[ ! -f $TLSSCAN ]] 
 then
@@ -19,10 +20,15 @@ if [ ! -f "$DOMAINS" ]; then
     exit -1
 fi
 
+rm -r $OUTDIR 2&>/dev/null; mkdir $OUTDIR
+
+ERRORS="$OUTDIR/errors.txt"
+RAW="$OUTDIR/raw_data.json"
+
 echo "Fetching results, this may take a while..."
 # Fetch Results
-cat $DOMAINS | $TLSSCAN --port=443 --pretty 2>errors.txt 1>raw_data.json
-tail -n 14 errors.txt
+cat $DOMAINS | $TLSSCAN --port=443 --pretty 2>$ERRORS 1>$RAW
+tail -n 14 $ERRORS
 
 echo ""
 echo "Extracting fields of interest to CSV format"
@@ -32,20 +38,20 @@ HEADER="host, $FIELDS"
 HEADER=${HEADER//"."/""}
 echo "Fields: $HEADER"
 
-ALL="all.csv"
-ROOTS="roots.csv"
-RUSSIA="russia.csv"
+ALL="$OUTDIR/all.csv"
+ROOTS="$OUTDIR/roots.csv"
+RUSSIA="$OUTDIR/russia.csv"
 
 echo $HEADER > $ALL
 echo $HEADER > $ROOTS
 echo $HEADER > $RUSSIA
 
 # All Certificates
-cat raw_data.json | jq -r '[ [.host] + (.certificateChain | map(['"$FIELDS"']) | .[])] | .[]  | @csv' >> $ALL
+cat $RAW | jq -r '[ [.host] + (.certificateChain | map(['"$FIELDS"']) | .[])] | .[]  | @csv' >> $ALL
 # All roots 
-cat raw_data.json | jq -r '[ [.host] +  (.certificateChain | map(select((.basicConstraints | test ("CA:TRUE")))) | map(['"$FIELDS"']) | .[])] | .[]  | @csv' >> $ROOTS
+cat $RAW | jq -r '[ [.host] +  (.certificateChain | map(select((.basicConstraints | test ("CA:TRUE")))) | map(['"$FIELDS"']) | .[])] | .[]  | @csv' >> $ROOTS
 # All issued by Russia 
-cat raw_data.json | jq -r '[ [.host] +  (.certificateChain | map(select(.issuer | test ("The Ministry of Digital Development and Communications"))) | map(['"$FIELDS"']) | .[])] | .[]  | @csv' >> $RUSSIA
+cat $RAW | jq -r '[ [.host] +  (.certificateChain | map(select(.issuer | test ("The Ministry of Digital Development and Communications"))) | map(['"$FIELDS"']) | .[])] | .[]  | @csv' >> $RUSSIA
 
 echo ""
 echo "Output:"
@@ -54,5 +60,5 @@ echo $ROOTS
 echo $RUSSIA 
 echo ""
 echo "Working State:"
-echo "errors.txt"
-echo "raw_data.json"
+echo  $ERRORS
+echo $RAW
