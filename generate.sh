@@ -2,7 +2,7 @@ TLSSCAN="./tls-scan"
 JQ="jq"
 DOMAINS=${1:-"domains.txt"}
 FIELDS=".subject, .issuer, .notBefore, .notAfter, .basicConstraints, .sha1Fingerprint"
-OUTDIR=${2:-"out"}
+OUTDIR=${2:-"out/"`date +\%d\%m\%y-\%H\%M`}
 
 if [[ ! -f $TLSSCAN ]] 
 then
