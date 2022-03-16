@@ -62,3 +62,9 @@ echo ""
 echo "Working State:"
 echo  $ERRORS
 echo $RAW
+
+cp $DOMAINS $OUTDIR/domains.txt
+
+LATEST=out/latest
+rm -r $LATEST 2&>/dev/null; mkdir $LATEST
+cp -r $OUTDIR/* $LATEST
