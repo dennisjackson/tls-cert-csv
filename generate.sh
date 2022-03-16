@@ -1,8 +1,8 @@
 TLSSCAN="./tls-scan"
 JQ="jq"
-DOMAINS="russia-tls-list-150322.txt"
+DOMAINS=${1:-"domains.txt"}
 FIELDS=".subject, .issuer, .notBefore, .notAfter, .basicConstraints, .sha1Fingerprint"
-OUTDIR="out"
+OUTDIR=${2:-"out"}
 
 if [[ ! -f $TLSSCAN ]] 
 then
