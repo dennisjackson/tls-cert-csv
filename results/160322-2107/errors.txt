@@ -1,0 +1,179 @@
+host: adm.sberbank-ru.os-psi.sberbank.ru; ip: ; error: DNS; errormsg: nodename nor servname provided, or not known
+host: bf2.testsbi.sberbank.ru; ip: ; port: 443; error: Timeout
+host: bfedupir.testsbi.sberbank.ru; ip: ; port: 443; error: Timeout
+host: edupir.testsbi.sberbank.ru; ip: ; port: 443; error: Timeout
+host: edupirfintech.sberbank.ru; ip: ; port: 443; error: Timeout
+host: edupirsms.testsbi.sberbank.ru; ip: ; port: 443; error: Timeout
+host: edupirupg2.testsbi.sberbank.ru; ip: ; port: 443; error: Timeout
+host: ift2.testsbi.sberbank.ru; ip: ; port: 443; error: Timeout
+host: ift2demo.testsbi.sberbank.ru; ip: ; port: 443; error: Timeout
+host: ift2upg.testsbi.sberbank.ru; ip: ; port: 443; error: Timeout
+host: iftfintech.testsbi.sberbank.ru; ip: ; port: 443; error: Timeout
+host: iftmobile.testsbi.sberbank.ru; ip: ; port: 443; error: Timeout
+host: psisbbauto.sberbank.ru; ip: ; error: DNS; errormsg: nodename nor servname provided, or not known
+host: acs25.sbrf.ru; ip: ; port: 443; error: Timeout
+host: ythm.ruonline-alpha.vtb.ru; ip: ; error: DNS; errormsg: nodename nor servname provided, or not known
+host: payment.ru; ip: ; error: DNS; errormsg: nodename nor servname provided, or not known
+host: iftmobile.testsbi.sberbank.ru; ip: ; port: 443; error: Timeout
+host: bf2.testsbi.sberbank.ru; ip: ; port: 443; error: Timeout
+host: ift2.testsbi.sberbank.ru; ip: ; port: 443; error: Timeout
+host: iftfintech.testsbi.sberbank.ru; ip: ; port: 443; error: Timeout
+host: ift2upg.testsbi.sberbank.ru; ip: ; port: 443; error: Timeout
+host: ift2demo.testsbi.sberbank.ru; ip: ; port: 443; error: Timeout
+host: bfedupir.testsbi.sberbank.ru; ip: ; port: 443; error: Timeout
+host: edupir.testsbi.sberbank.ru; ip: ; port: 443; error: Timeout
+host: edupirsms.testsbi.sberbank.ru; ip: ; port: 443; error: Timeout
+host: edupirupg2.testsbi.sberbank.ru; ip: ; port: 443; error: Timeout
+host: edupirfintech.sberbank.ru; ip: ; port: 443; error: Timeout
+host: psisbbauto.sberbank.ru; ip: ; error: DNS; errormsg: nodename nor servname provided, or not known
+host: online-beta.vtb24.ru; ip: ; error: DNS; errormsg: nodename nor servname provided, or not known
+host: online-old.vtb24.ru; ip: ; error: DNS; errormsg: nodename nor servname provided, or not known
+host: Online-pro.vtb.ru; ip: ; error: DNS; errormsg: nodename nor servname provided, or not known
+host: www.online.vtb.ru; ip: ; error: DNS; errormsg: nodename nor servname provided, or not known
+host: www.online.vtb24.ru; ip: ; error: DNS; errormsg: nodename nor servname provided, or not known
+host: alpp-lkp.vtb.ru; ip: ; error: DNS; errormsg: nodename nor servname provided, or not known
+host: www.alpp-lkp.vtb.ru; ip: ; error: DNS; errormsg: nodename nor servname provided, or not known
+host: al.vtb.ru; ip: ; error: DNS; errormsg: nodename nor servname provided, or not known
+host: chat1.vtb.ru; ip: ; error: DNS; errormsg: nodename nor servname provided, or not known
+host: chat2.vtb.ru; ip: ; error: DNS; errormsg: nodename nor servname provided, or not known
+host: hf-chat-sharing.vtb.ru; ip: ; port: 443; error: Timeout
+host: k4-online.vtb24.ru; ip: ; error: DNS; errormsg: nodename nor servname provided, or not known
+host: k3-online.vtb24.ru; ip: ; error: DNS; errormsg: nodename nor servname provided, or not known
+host: k4-online.vtb24.ru; ip: ; error: DNS; errormsg: nodename nor servname provided, or not known
+host: k5-online.vtb24.ru; ip: ; error: DNS; errormsg: nodename nor servname provided, or not known
+host: k10-online.vtb24.ru; ip: ; error: DNS; errormsg: nodename nor servname provided, or not known
+host: lite-test.vtb.ru; ip: ; error: Network; errormsg:                      Error encountered while reading
+host: service1.lkbo.vtb.ru; ip: ; error: DNS; errormsg: nodename nor servname provided, or not known
+host: service2.lkbo.vtb.ru; ip: ; error: DNS; errormsg: nodename nor servname provided, or not known
+host: service3.lkbo.vtb.ru; ip: ; error: DNS; errormsg: nodename nor servname provided, or not known
+host: service4.lkbo.vtb.ru; ip: ; error: DNS; errormsg: nodename nor servname provided, or not known
+host: service5.lkbo.vtb.ru; ip: ; error: DNS; errormsg: nodename nor servname provided, or not known
+host: www.mail.vtbstrana.ru; ip: ; error: DNS; errormsg: nodename nor servname provided, or not known
+host: mdm101lv.vtb.ru; ip: ; error: DNS; errormsg: nodename nor servname provided, or not known
+host: mdm201lv.vtb.ru; ip: ; error: DNS; errormsg: nodename nor servname provided, or not known
+host: mdm202lv.vtb.ru; ip: ; error: DNS; errormsg: nodename nor servname provided, or not known
+host: mi.vtb.ru; ip: ; error: Network; errormsg:                      Error encountered while reading
+host: mi2.vtb.ru; ip: ; error: Network; errormsg:                      Error encountered while reading
+host: mi-vpn.vtb.ru; ip: ; error: Network; errormsg:                      Error encountered while reading
+host: mi2-vpn.vtb.ru; ip: ; error: DNS; errormsg: nodename nor servname provided, or not known
+host: mdmmi101lv.vtb.ru; ip: ; error: DNS; errormsg: nodename nor servname provided, or not known
+host: mdmmi201lv.vtb.ru; ip: ; error: DNS; errormsg: nodename nor servname provided, or not known
+host: mdmrd201lv.vtb.ru; ip: ; error: DNS; errormsg: nodename nor servname provided, or not known
+host: mgt.api.vtb.ru; ip: ; error: DNS; errormsg: nodename nor servname provided, or not known
+host: www.pay.vtb.ru; ip: ; error: DNS; errormsg: nodename nor servname provided, or not known
+host: pnm.vtb.ru; ip: ; port: 443; error: Timeout
+host: pnm-test.vtb.ru; ip: ; port: 443; error: Timeout
+host: www.pnm-test.vtb.ru; ip: ; error: DNS; errormsg: nodename nor servname provided, or not known
+host: www.reg.vtb.ru; ip: ; error: DNS; errormsg: nodename nor servname provided, or not known
+host: h2h.bo-test.vtb.ru; ip: ; error: DNS; errormsg: nodename nor servname provided, or not known
+host: 1c.tst.vtbbo.ru; ip: ; error: Network; errormsg:                      Error encountered while reading
+host: bss.tst.vtbbo.ru; ip: ; error: Network; errormsg:                      Error encountered while reading
+host: cryptogateway.tst.vtbbo.ru; ip: ; error: DNS; errormsg: nodename nor servname provided, or not known
+host: vo1.vtb.ru; ip: ; error: DNS; errormsg: nodename nor servname provided, or not known
+host: vo2.vtb.ru; ip: ; error: DNS; errormsg: nodename nor servname provided, or not known
+host: vo1.vtb24.ru; ip: ; error: DNS; errormsg: nodename nor servname provided, or not known
+host: vo2.vtb24.ru; ip: ; error: DNS; errormsg: nodename nor servname provided, or not known
+host: vo-sharinggw-1.vtb24.ru; ip: ; error: DNS; errormsg: nodename nor servname provided, or not known
+host: vo-sharinggw-2.vtb24.ru; ip: ; error: DNS; errormsg: nodename nor servname provided, or not known
+host: wifi.vtb.ru; ip: ; error: DNS; errormsg: nodename nor servname provided, or not known
+host: wificert.vtb.ru; ip: ; error: DNS; errormsg: nodename nor servname provided, or not known
+host: mydevices.vtb.ru; ip: ; error: DNS; errormsg: nodename nor servname provided, or not known
+host: mgmt-ise201.vtb.ru; ip: ; error: DNS; errormsg: nodename nor servname provided, or not known
+host: mgmt-ise401.vtb.ru; ip: ; error: DNS; errormsg: nodename nor servname provided, or not known
+host: access.vtb.ru; ip: ; error: DNS; errormsg: nodename nor servname provided, or not known
+host: wimapi.vtb.ru; ip: ; error: Network; errormsg:                      Error encountered while reading
+host: old.vtb24.ru; ip: ; error: DNS; errormsg: nodename nor servname provided, or not known
+host: zakupki.vtb24.ru; ip: ; error: DNS; errormsg: nodename nor servname provided, or not known
+host: zalog.vtb24.ru; ip: ; error: DNS; errormsg: nodename nor servname provided, or not known
+[msg] Nameserver 127.0.0.53:53 has failed: request timed out.
+[msg] All nameservers have failed
+host: cbr2021.online; ip: ; error: DNS; errormsg: non-recoverable failure in name resolution
+[msg] Nameserver 127.0.0.53:53 is back up
+host: dol-igra.ru; ip: ; error: Network; errormsg:                      Error encountered while reading
+host: fcsm.ru; ip: ; port: 443; error: Timeout
+host: ffms.ru; ip: ; port: 443; error: Timeout
+host: open-cbr.ru; ip: ; error: Network; errormsg:                      Error encountered while reading
+host: pension-fg.ru; ip: ; error: Network; errormsg:                      Error encountered while reading
+host: msk.vtb.ru; ip: ; error: DNS; errormsg: nodename nor servname provided, or not known
+host: async-private.vtb.ru; ip: ; error: DNS; errormsg: nodename nor servname provided, or not known
+host: www.bo-gate-api.vtb.ru; ip: ; error: DNS; errormsg: nodename nor servname provided, or not known
+host: CRM-PERS-APP-1.dmz.vtb24.ru; ip: ; error: DNS; errormsg: nodename nor servname provided, or not known
+host: www.db.vtb.ru; ip: ; error: DNS; errormsg: nodename nor servname provided, or not known
+host: hf-chat.vtb.ru; ip: ; error: Network; errormsg:                      Error encountered while reading
+host: iweb.vtb24.ru; ip: ; error: DNS; errormsg: nodename nor servname provided, or not known
+host: k5-vo.vtb24.ru; ip: ; error: DNS; errormsg: nodename nor servname provided, or not known
+host: k3-chat.vtb.ru; ip: ; error: DNS; errormsg: nodename nor servname provided, or not known
+host: k4-chat.vtb.ru; ip: ; error: DNS; errormsg: nodename nor servname provided, or not known
+host: k5-chat.vtb.ru; ip: ; error: DNS; errormsg: nodename nor servname provided, or not known
+host: smtp.vtb.com; ip: ; error: DNS; errormsg: nodename nor servname provided, or not known
+host: autodiscover.vtb.com; ip: ; error: DNS; errormsg: nodename nor servname provided, or not known
+host: www.mail.vtb.com; ip: ; error: DNS; errormsg: nodename nor servname provided, or not known
+host: testmi2.vtb24.ru; ip: ; error: Network; errormsg:                      Error encountered while reading
+host: testmi3.vtb24.ru; ip: ; error: Network; errormsg:                      Error encountered while reading
+host: mi-sentry-spz.vtb24.ru; ip: ; error: Network; errormsg:                      Error encountered while reading
+host: mi-sentry-bbo.vtb24.ru; ip: ; error: Network; errormsg:                      Error encountered while reading
+host: ksm-sentry.vtb24.ru; ip: ; error: Network; errormsg:                      Error encountered while reading
+host: mx101.vtb.ru; ip: ; port: 443; error: Timeout
+host: mx102.vtb.ru; ip: ; port: 443; error: Timeout
+host: mx201.vtb.ru; ip: ; port: 443; error: Timeout
+host: mx202.vtb.ru; ip: ; port: 443; error: Timeout
+host: msk.vtb.ru; ip: ; error: DNS; errormsg: nodename nor servname provided, or not known
+host: webquikdemo.vtb.ru; ip: ; error: Network; errormsg:                      Error encountered while reading
+host: wfm-mobile.vtb24.ru; ip: ; error: DNS; errormsg: nodename nor servname provided, or not known
+host: dss-ift.ca.sbrf.ru; ip: ; error: Network; errormsg:                      Error encountered while reading
+host: testonline.sberbank.ru; ip: ; error: DNS; errormsg: nodename nor servname provided, or not known
+host: testonline.sberbank.ru; ip: ; error: DNS; errormsg: nodename nor servname provided, or not known
+host: test.gosuslugi.ru; ip: ; error: DNS; errormsg: nodename nor servname provided, or not known
+host: acs25.sbrf.ru; ip: ; port: 443; error: Timeout
+host: www.bcmc.gazprombank.ru; ip: ; error: DNS; errormsg: nodename nor servname provided, or not known
+host: www.cdn.gbo.gazprombank.ru; ip: ; error: DNS; errormsg: nodename nor servname provided, or not known
+host: www.corp.dbo.gazprombank.ru; ip: ; error: DNS; errormsg: nodename nor servname provided, or not known
+host: www.mbk.online.gazprombank.ru; ip: ; error: DNS; errormsg: nodename nor servname provided, or not known
+host: acs9.sbrf.ru; ip: ; error: Network; errormsg:                      Error encountered while reading
+host: acs11.sbrf.ru; ip: ; error: Network; errormsg:                      Error encountered while reading
+host: acs12.sbrf.ru; ip: ; error: Network; errormsg:                      Error encountered while reading
+host: acs13.sbrf.ru; ip: ; error: DNS; errormsg: nodename nor servname provided, or not known
+host: acs14.sbrf.ru; ip: ; error: DNS; errormsg: nodename nor servname provided, or not known
+host: acs15.sbrf.ru; ip: ; error: DNS; errormsg: nodename nor servname provided, or not known
+host: acs16.sbrf.ru; ip: ; error: DNS; errormsg: nodename nor servname provided, or not known
+host: ufscs.sberbank.ru; ip: ; port: 443; error: Timeout
+host: ufscs.psi.sberbank.ru; ip: ; port: 443; error: Timeout
+host: ncs25.sbrf.ru; ip: ; port: 443; error: Timeout
+host: webquik-test.sberbank.ru; ip: ; error: Network; errormsg:                      Error encountered while reading
+host: lt2-26.webquik-test.sberbank.ru; ip: ; error: Network; errormsg:                      Error encountered while reading
+host: ift3.webquik-test.sberbank.ru; ip: ; error: Network; errormsg:                      Error encountered while reading
+host: dev4.webquik-test.sberbank.ru; ip: ; error: Network; errormsg:                      Error encountered while reading
+host: lt2-048e.webquik-test.sberbank.ru; ip: ; error: Network; errormsg:                      Error encountered while reading
+host: st1e.webquik-test.sberbank.ru; ip: ; error: Network; errormsg:                      Error encountered while reading
+host: id.sberbank.ru; ip: ; error: Network; errormsg:                      Error encountered while reading
+host: pokupay.ru; ip: ; error: Network; errormsg:                      Error encountered while reading
+host: adm.sberbank-ru.os-psi.sberbank.ru; ip: ; error: DNS; errormsg: nodename nor servname provided, or not known
+host: biz.smpbank.ru; ip: ; error: Network; errormsg:                      Error encountered while reading
+host: cetelem-bank.ru; ip: ; error: DNS; errormsg: nodename nor servname provided, or not known
+host: cetelem-bank.ru; ip: ; error: DNS; errormsg: nodename nor servname provided, or not known
+host: www.cs.gazprombank.ru; ip: ; error: DNS; errormsg: nodename nor servname provided, or not known
+host: expressway-e.smpbank.ru; ip: ; port: 443; error: Timeout
+host: gupti.ru; ip: ; error: DNS; errormsg: nodename nor servname provided, or not known
+host: www.ibank.mosoblbank.ru; ip: ; port: 443; error: Timeout
+host: mpi.smpbank.ru; ip: ; port: 443; error: Timeout
+host: www.mydss.gazprombank.ru; ip: ; error: DNS; errormsg: nodename nor servname provided, or not known
+host: payanyway.ru; ip: ; port: 443; error: Timeout
+host: moneta.ru; ip: ; port: 443; error: Timeout
+host: lt2-26.webquik-test.sberbank.ru; ip: ; error: Network; errormsg:                      Error encountered while reading
+host: ift3.webquik-test.sberbank.ru; ip: ; error: Network; errormsg:                      Error encountered while reading
+host: st1e.webquik-test.sberbank.ru; ip: ; error: Network; errormsg:                      Error encountered while reading
+host: t72.ru; ip: ; port: 443; error: Timeout
+
+<|---------Scan Summary---------|>
+ [10130] ciphers             :  (0)
+ [10130] host-count          : 504
+ [10130] network-error       : 33
+ [10130] dns-errcount        : 87
+ [10130] remote-close-error  : 0
+ [10130] unknown-error       : 0
+ [10130] timeout-error       : 42
+ [10130] connect-error       : 162
+ [10130] tls-handshake       : 342
+ [10130] gross-tls-handshake : 342
+ [10130] elapsed-time        : 471.52280 secs
+<|------------------------------|>
