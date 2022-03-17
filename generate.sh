@@ -52,17 +52,22 @@ RUSSIA="$OUTDIR/russia.csv"
 #echo $HEADER > $ROOTS
 echo $HEADER > $RUSSIA
 
+
+FILTERED="filtered".json
+grep -v "x509ChainDepth\": -1" $RAW > $FILTERED
+
 # All Certificates
 #cat $RAW | jq -r '[ [.host] + (.certificateChain | map(['"$FIELDS"']) | .[])] | .[]  | @csv' >> $ALL
 # All roots 
 #cat $RAW | jq -r '[ [.host] +  (.certificateChain | map(select((.basicConstraints | test ("CA:TRUE")))) | map(['"$FIELDS"']) | .[])] | .[]  | @csv' >> $ROOTS
 # All issued by Russia 
-cat $RAW | jq -r '[ [.host] +  (.certificateChain | map(select(.issuer | test ("The Ministry of Digital Development and Communications"))) | map(['"$FIELDS"']) | .[])] | .[]  | @csv' >> $RUSSIA
+cat $FILTERED | jq -r '[ [.host] +  (.certificateChain | map(select(.issuer | test ("The Ministry of Digital Development and Communications"))) | map(['"$FIELDS"']) | .[])] | .[]  | @csv' >> $RUSSIA
 
 ZIPNAME="$OUTDIR/raw.zip"
 $ZIP --junk-paths $ZIPNAME $RAW $ERRORS $DOMAINS 
 rm $RAW
 rm $ERRORS
+rm $FILTERED
 
 echo ""
 echo "Output:"
