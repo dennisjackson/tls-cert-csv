@@ -33,7 +33,7 @@ RAW="$OUTDIR/raw_data.json"
 
 echo "Fetching results, this may take a while..."
 # Fetch Results
-cat $DOMAINS | $TLSSCAN --port=443 --concurrency=1000 --pretty 2>$ERRORS 1>$RAW
+cat $DOMAINS | $TLSSCAN --port=443 --concurrency=1000 2>$ERRORS 1>$RAW
 tail -n 14 $ERRORS
 
 echo ""
