@@ -1,4 +1,5 @@
 while true; do
+    git pull 
     echo "### censys:"
     ./generate.sh lists/latest-censys.txt html/censys
     echo "### gosuslugi:"
