@@ -11,12 +11,11 @@ curl -L "https://docs.google.com/spreadsheets/d/e/2PACX-1vR-VZVR0caI9nsrJAo8irDL
 iconv -c -f utf-8 -t ascii $RAW_NEW_LIST | sed 's/\*\.//' | sed 's/ //g'  \
                                          | sed 's/[^a-zA-Z0-9\.\-]//g' | sed -E 's/^[^a-zA-Z0-9]+//' \
                                          | sed -E 's/\.+$//' > $FILTERED_LIST
-
-#rm $RAW_NEW_LIST
+git add $RAW_NEW_LIST
 git add $FILTERED_LIST  
 
 cp $FILTERED_LIST $LATEST
 git add $LATEST 
 
 #TODO
-#git commit -m "Update to latest gosuslugi list for `date +\%d-\%m-\%y`"
+git commit -m "Update to latest gosuslugi list for `date +\%d-\%m-\%y`"
