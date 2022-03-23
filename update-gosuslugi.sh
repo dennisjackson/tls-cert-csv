@@ -1,6 +1,6 @@
 # Goslugi
 OUTDIR="lists"
-PREFIX=`date +\%d\%m\%y-gosuslugi`
+PREFIX=`date +\%d\%m\%y-\%H\%M-gosuslugi`
 RAW_NEW_LIST="$OUTDIR/$PREFIX-raw.txt"
 FILTERED_LIST="$OUTDIR/$PREFIX.txt" 
 LATEST="$OUTDIR/latest-gosuslugi.txt"
