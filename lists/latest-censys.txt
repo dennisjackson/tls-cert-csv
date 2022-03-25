@@ -1,75 +1,75 @@
-  bratsk.city
-  eximbank.ru
-  geo-t.geoapi.sberbank.ru
-  geo-t.online.sberbank.ru
-  cam.zagorodtelecom.ru
-  lk.zagorodtelecom.ru
-  mail.zagorodtelecom.ru
-  userside.zagorodtelecom.ru
-  zabbix.zagorodtelecom.ru
-  zagorodtelecom.ru
-  adm.sberbank-ru.os-psi.sberbank.ru
-  psi.promo.sber.ru
-  psi.sberprime.sber.ru
-  sberbank-com.os-psi.sberbank.ru
-  sberbank-ru.os-psi.sberbank.ru
-  sberbank1-ru.os-psi.sberbank.ru
-  www.sberbank-com.os-psi.sberbank.ru
-  www.sberbank-ru.os-psi.sberbank.ru
-  www.sberbank1-ru.os-psi.sberbank.ru
-  sbbolmobiletest.sberbank.ru
-  testsbi.sberbank.ru
-  edupirfintech.sberbank.ru
-  psisbbauto.sberbank.ru
-  sbbolmobiletest.sberbank.ru
-  testsbi.sberbank.ru
-  app.rcg.agency
-  autodiscover.randi.ru
-  autodiscover.rcg.agency
-  autodiscover.red-people.com
-  autodiscover.room485.com
-  demo.rcg.agency
-  edge-03.rcg.agency
-  exch.rcg.agency
-  ks.moscow
-  randi.ru
-  rcg.agency
-  red-people.com
-  room485.com
-  www.rcg.agency
-  rosbank.ru
-  tuvsu.ru
-  komission.vtb.ru
-  cbr.ru
-  exiar.ru
-  webquikdemo.vtb.ru
-  acs25.sbrf.ru
-  bf2.testsbi.sberbank.ru
-  bfedupir.testsbi.sberbank.ru
-  edupir.testsbi.sberbank.ru
-  edupirfintech.sberbank.ru
-  edupirsms.testsbi.sberbank.ru
-  edupirupg2.testsbi.sberbank.ru
-  ift2.testsbi.sberbank.ru
-  ift2demo.testsbi.sberbank.ru
-  ift2upg.testsbi.sberbank.ru
-  iftfintech.testsbi.sberbank.ru
-  iftmobile.testsbi.sberbank.ru
-  psi.sbbolmobiletest.sberbank.ru
-  psisbbauto.sberbank.ru
-  sbi.sbbolmobiletest.sberbank.ru
-  ythm.ru
-  dev4.webquik-test.sberbank.ru
-  zabbix.ythm.ru
-  xn----7sbbdrzkdqce2az7c0eo.xn--p1ai
-  bo-gate-api.vtb.ru
-  www.bo-gate-api.vtb.ru
-  56.rospotrebnadzor.ru
-  forabank.ru
-  d.exportcenter.ru
-  exportcenter.ru
-  t.exportcenter.ru
-  exportcenter.ru
-  www.exportcenter.ru
-  syktsu.ru
-  ufscs.psi.sberbank.ru
+bratsk.city
+eximbank.ru
+geo-t.geoapi.sberbank.ru
+geo-t.online.sberbank.ru
+cam.zagorodtelecom.ru
+lk.zagorodtelecom.ru
+mail.zagorodtelecom.ru
+userside.zagorodtelecom.ru
+zabbix.zagorodtelecom.ru
+zagorodtelecom.ru
+adm.sberbank-ru.os-psi.sberbank.ru
+psi.promo.sber.ru
+psi.sberprime.sber.ru
+sberbank-com.os-psi.sberbank.ru
+sberbank-ru.os-psi.sberbank.ru
+sberbank1-ru.os-psi.sberbank.ru
+www.sberbank-com.os-psi.sberbank.ru
+www.sberbank-ru.os-psi.sberbank.ru
+www.sberbank1-ru.os-psi.sberbank.ru
+sbbolmobiletest.sberbank.ru
+testsbi.sberbank.ru
+edupirfintech.sberbank.ru
+psisbbauto.sberbank.ru
+sbbolmobiletest.sberbank.ru
+testsbi.sberbank.ru
+app.rcg.agency
+autodiscover.randi.ru
+autodiscover.rcg.agency
+autodiscover.red-people.com
+autodiscover.room485.com
+demo.rcg.agency
+edge-03.rcg.agency
+exch.rcg.agency
+ks.moscow
+randi.ru
+rcg.agency
+red-people.com
+room485.com
+www.rcg.agency
+rosbank.ru
+tuvsu.ru
+komission.vtb.ru
+cbr.ru
+exiar.ru
+webquikdemo.vtb.ru
+acs25.sbrf.ru
+bf2.testsbi.sberbank.ru
+bfedupir.testsbi.sberbank.ru
+edupir.testsbi.sberbank.ru
+edupirfintech.sberbank.ru
+edupirsms.testsbi.sberbank.ru
+edupirupg2.testsbi.sberbank.ru
+ift2.testsbi.sberbank.ru
+ift2demo.testsbi.sberbank.ru
+ift2upg.testsbi.sberbank.ru
+iftfintech.testsbi.sberbank.ru
+iftmobile.testsbi.sberbank.ru
+psi.sbbolmobiletest.sberbank.ru
+psisbbauto.sberbank.ru
+sbi.sbbolmobiletest.sberbank.ru
+ythm.ru
+dev4.webquik-test.sberbank.ru
+zabbix.ythm.ru
+xn----7sbbdrzkdqce2az7c0eo.xn--p1ai
+bo-gate-api.vtb.ru
+www.bo-gate-api.vtb.ru
+56.rospotrebnadzor.ru
+forabank.ru
+d.exportcenter.ru
+exportcenter.ru
+t.exportcenter.ru
+exportcenter.ru
+www.exportcenter.ru
+syktsu.ru
+ufscs.psi.sberbank.ru
