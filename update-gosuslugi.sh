@@ -10,7 +10,7 @@ curl -L "https://docs.google.com/spreadsheets/d/e/2PACX-1vR-VZVR0caI9nsrJAo8irDL
 # Filter out the bad characters - Space, Non-ASCII, Brackets. 
 iconv -c -f utf-8 -t ascii $RAW_NEW_LIST | sed 's/\*\.//' | sed 's/ //g'  \
                                          | sed 's/[^a-zA-Z0-9\.\-]//g' | sed -E 's/^[^a-zA-Z0-9]+//' \
-                                         | sed -E 's/\.+$//' > $FILTERED_LIST
+                                         | sed -E 's/\.+$//' | uniq > $FILTERED_LIST
 git add $RAW_NEW_LIST
 git add $FILTERED_LIST  
 
