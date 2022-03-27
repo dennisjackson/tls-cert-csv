@@ -4,5 +4,6 @@ cat $1 | jq -r '[ .results | map( [.parsed | .names ] ) | flatten(2) | .[]  ]' |
     tr -d " " | \
     tr '[:upper:]' '[:lower:]' | \
     awk 'NF' | \
-    uniq | \
-    sort
+    sort | \
+    uniq 
+
