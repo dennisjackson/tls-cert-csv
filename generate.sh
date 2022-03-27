@@ -82,3 +82,6 @@ echo $ZIPNAME
 LATEST="$2/latest"
 rm -r $LATEST 2&>/dev/null; mkdir $LATEST
 cp -r $OUTDIR/* $LATEST
+
+gsutil cp $ZIPNAME gs://teal-platinum/${ZIPNAME#*/} #TODO Error handling, add name to API secrets.
+rm -r $OUTDIR
