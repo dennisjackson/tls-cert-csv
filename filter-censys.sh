@@ -15,6 +15,7 @@ cat $1 | jq -r '[ .results | map( [.parsed | .names ] ) | flatten(2) | .[]  ]' |
 cp $TEMP $LATEST
 cp $TEMP $FILTERED_LIST
 
+git add $1
 git add $LATEST
 git add $FILTERED_LIST
 rm $TEMP 
