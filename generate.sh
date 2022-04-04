@@ -67,7 +67,6 @@ cat $FILTERED | jq -r '[ [.host] +  (.certificateChain | map(select(.issuer | te
 ZIPNAME="$OUTDIR/raw.zip"
 $ZIP --junk-paths $ZIPNAME $RAW $ERRORS $DOMAINS 
 rm $RAW
-rm $ERRORS
 rm $FILTERED
 
 echo ""
