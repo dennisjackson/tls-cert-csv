@@ -4,6 +4,8 @@ import requests
 import json
 import os 
 from datetime import datetime
+import config
+from pprint import pprint
 
 url = "https://search.censys.io/api/v1/search/certificates"
 
@@ -28,7 +30,16 @@ def make_body(page):
 
 def extract_pages(str):
   j = json.loads(str)
+  if "status" in j.keys():
+    if j['status'] == "error": 
+      pprint(j)
+      exit(-1)
   return int(j['metadata']['pages'])
+
+auth_header = config.header
+if auth_header is None:
+  print("No authorisation header set")
+  exit(-1)
 
 outdir=f'lists/censys-raw/{datetime.now().strftime("%Y%m%d-%H%M")}'
 os.makedirs(f"{outdir}",exist_ok=True)
@@ -40,11 +51,13 @@ while p != pages:
   payload = make_body(p)
   headers = {
     'Content-Type': 'application/json',
-    'Authorization': 'Basic MzZmN2NmNmUtZGNmMS00NzllLWIzZDktOWIyZGI4ZmFlYzNjOkpvb3lLWmpRRVRBZG9KRkFTUUNrUVFTY2FiNlV3Z0l5'
+    'Authorization': auth_header 
   }
   response = requests.request("POST", url, headers=headers, data=payload)
   pages = extract_pages(response.text)
-  print(response.text)
+  pprint(pages)
   f = open(f"{outdir}/{p}.json","w")
   f.write(response.text)
   f.close()
+
+print(f"Output {p} pages to {outdir}")
