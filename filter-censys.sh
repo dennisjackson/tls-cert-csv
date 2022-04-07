@@ -20,6 +20,6 @@ git add $LATEST
 git add $FILTERED_LIST
 rm $TEMP 
 
-#git commit -m "Update to latest censys list for `date +\%d-\%m-\%y`"
+git commit -m "Update to latest censys list for `date +\%d-\%m-\%y`"
 
  
